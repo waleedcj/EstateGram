@@ -1,0 +1,23 @@
+[
+	{
+		"name": "SaliSol Resort",
+		"dropboxUrl": "https://www.dropbox.com/sh/t49hfiy9nlc61vh/AACAPSVNxb7w8IM8QAUYyLNVa?dl=0A",
+		"googleMapsUrl": "https://maps.app.goo.gl/o22J9WNxTdUcdbHR6",
+		"presentationVideoFileId": "12345",
+		"phoneNumber": "0034607862954"
+	},
+	{
+		"name": "SaliSol Golf",
+		"dropboxUrl": "https://www.dropbox.com/sh/1jl3z0t28ia86xf/AABqTv8S39H7wpmfdpJS8aQWa?dl=0",
+		"googleMapsUrl": "https://maps.app.goo.gl/EvzDpeqqWr3ubYxk7",
+		"presentationVideoFileId": "12345",
+		"phoneNumber": "0034607862954"
+	},
+	{
+		"name": "SaliSol Hills",
+		"dropboxUrl": "https://www.dropbox.com/sh/t6330gcog0lz7dh/AADqYOkfEnvIQ0RF6Lr0eRBja?dl=0",
+		"googleMapsUrl": "https://maps.app.goo.gl/FRF1Yo6D5cSDGbBGA",
+		"presentationVideoFileId": "12345",
+		"phoneNumber": "0034605632401"
+	}
+]

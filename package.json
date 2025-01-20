@@ -1,0 +1,59 @@
+{
+	"name": "estategram-telegram-bot",
+	"version": "1.0.0",
+	"description": "estategram - a telegram bot for Real Estate",
+	"main": "dist/index.js",
+	"scripts": {
+		"compile": "tsc",
+		"postcompile": "cp -r src/locales dist",
+		"bg:start": "npm run prepare && pm2 start dist/index.js --name propertygram-bot -f",
+		"bg:restart": "npm run prepare && pm2 restart propertygram-bot",
+		"bg:logs": "pm2 logs telegram-bot --lines 1000 -f",
+		"start": "npm run compile && node .",
+		"start:dev": " node --watch . ",
+		"build:dev": "tsc -watch",
+		"lint": "npx prettier --write src",
+		"prepare": "husky install"
+	},
+	"keywords": [
+		"telegram",
+		"bot",
+		"grammy",
+		"mongodb",
+		"typescript"
+	],
+	"author": "ExposedCat",
+	"Contributors": "Waleed",
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"@grammyjs/i18n": "^0.5.1",
+		"debug": "^4.3.4",
+		"dotenv": "^16.0.1",
+		"grammy": "^1.10.1",
+		"mongodb": "^4.17.2"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^18.4.3",
+		"@commitlint/config-conventional": "^18.4.3",
+		"@types/debug": "^4.1.12",
+		"@types/node": "^18.7.4",
+		"@types/pg": "^8.6.5",
+		"@typescript-eslint/parser": "^6.7.3",
+		"eslint": "^8.50.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-functional": "^6.0.0",
+		"eslint-plugin-github": "^4.10.1",
+		"eslint-plugin-import": "^2.28.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-sonarjs": "^0.21.0",
+		"husky": "^8.0.0",
+		"lint-staged": "^15.2.0",
+		"prettier": "^3.0.3",
+		"typescript": "^4.7.4"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=4",
+		"npm": ">=2"
+	}
+}
