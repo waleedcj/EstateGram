@@ -2,7 +2,7 @@
 
 Intenteded to display real estate properties concisely via a Telegram Bot
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=QuantGeekDev_PropertyGram-telegram-bot&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=QuantGeekDev_PropertyGram-telegram-bot)
+<!-- [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=QuantGeekDev_PropertyGram-telegram-bot&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=QuantGeekDev_PropertyGram-telegram-bot) -->
 
 ## Features
 
